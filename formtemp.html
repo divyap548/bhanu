@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formtemp</title>
+    <style>
+        .main{
+            border: 2px blue solid;
+            width: 700px;
+            margin: auto;
+        }
+        h2{
+            padding-left: 20px;
+        }
+        .rows{
+        /* width: 250px;*/
+        height: 300px;
+         display: flex;
+         align: center;
+         
+        }
+        .row1{
+         list-style: none;
+
+        }
+        ul li{
+            line-height: 40px;
+        }
+        .row2{
+         list-style: none;
+         height: 100px;
+        }
+        i{
+            color: blue;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/7ba0ec0d0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<form action="./gallery.html">
+    <div class="main">
+    <h2>Sign Up</h2>
+    <div class="rows">
+    <aside>
+      <ul class="row1">
+        <li>
+        <label for="username"> <i class="fa-solid fa-face-smile"></i> </label>
+        <input type="text" name="username" placeholder="User Name...">
+        </li>
+        <li>
+        <label for="email"> <i class="fa-solid fa-envelope"></i></label>
+        <input type="email" name="email" placeholder="Email Address...">
+        </li>
+        <li>
+        <label for="address"><i class="fa-solid fa-location-dot"></i></label>
+        <input type="text" name="address" placeholder="Address...">
+        </li>
+        <li>
+        <label for="phone"><i class="fa-solid fa-phone"></i></label>
+        <input type="tel" name="phone" placeholder="Phone Number...">
+        </li>
+        <li>
+        <label for="number" style="font-size: 15px;">What does this equal? 3+2 </label>
+        <input type="number">
+        </li>
+    </ul>
+    </aside>
+    <aside>
+      <ul class="row2">
+        <li>
+        <label for="password"><i class="fa-solid fa-key"></i> </label>
+        <input type="password" name="password" placeholder="Password...">
+        </li>
+        <li>
+        <label for="email"> <i class="fa-solid fa-envelope-circle-check"></i></label>
+        <input type="email" name="email" placeholder="Confirm Email...">
+        </li>
+        <li>
+        <label for="zipcode"><i class="fa-regular fa-inbox"></i></label>
+        <input type="number" name="zipcode" placeholder="Zipcode...">
+        </li>
+        <li>
+        <label for="mobile"><i class="fa-solid fa-mobile-retro"></i></label>
+        <input type="tel" name="mobile" placeholder="Mobile Number...">
+        </li>
+        <li>
+        <input type="button" value="SIGN-IN NOW" style="background-color: rgba(118, 118, 238, 0.61);">
+        </li>
+      </ul>
+    </aside>
+    </div>
+</div>
+</form>
+</body>
+</html>
